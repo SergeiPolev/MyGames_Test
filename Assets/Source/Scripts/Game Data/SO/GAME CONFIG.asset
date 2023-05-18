@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a47fb02be29da5d4485dc9345f706886, type: 3}
+  m_Name: GAME CONFIG
+  m_EditorClassIdentifier: 
+  <PlayerStats>k__BackingField:
+    Speed: 10
+    Health: 100
+    Damage: 10
+    AttackRate: 0.2
+    ProjectileForce: 20
+    Projectile: {fileID: 1058584430362216982, guid: 82c350b03e0793b4a95f22e172f236a1, type: 3}
+    HealthSettings:
+      MaxPoints: 100
+      DestroyOnDeath: 0
+      IsBlinkOnDamage: 1
+      IsEmissionBlink: 0
+      EmissionBlinkName: _EmissionColor
+      BlinkDuration: 0.1
+      HitEffect: {fileID: 0}
+      DeathEffect: {fileID: 0}
+      OriginGO: {fileID: 0}
+      BlinkingRenderers: []
+      HealthCollider: {fileID: 0}
+  <PlayerIsometricOffset>k__BackingField: {x: 0, y: 45, z: 0}
+  <PlayerAimOffset>k__BackingField: {x: 0, y: 1, z: 0}
+  <EnemyPrefab>k__BackingField: {fileID: 2304581653320235522, guid: 71c5ceb16ad6ea244b0efa00dee55935, type: 3}
+  <EnemiesWaves>k__BackingField:
+  - Count: 10
+  - Count: 15
+  - Count: 25
+  <EnemyStats>k__BackingField:
+    Speed: 5
+    Health: 30
+    Damage: 5
+    AttackRate: 1
+    AttackRange: 2
+    ProjectileForce: 0
+    Projectile: {fileID: 0}
+    HealthSettings:
+      MaxPoints: 30
+      DestroyOnDeath: 0
+      IsBlinkOnDamage: 1
+      IsEmissionBlink: 0
+      EmissionBlinkName: _EmissionColor
+      BlinkDuration: 0.1
+      HitEffect: {fileID: 0}
+      DeathEffect: {fileID: 4803019539639641055, guid: 357a66d4ec82b5f43a78ddc79b929d19, type: 3}
+      OriginGO: {fileID: 0}
+      BlinkingRenderers: []
+      HealthCollider: {fileID: 0}
+  <DamageNumbersEase>k__BackingField: 2
+  ObstacleRaycastLayers: 
